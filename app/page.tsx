@@ -15,7 +15,7 @@ export default function Home() {
           <Skills />
           <Education />
         </div>
-        <div className='lg:w-3/5 flex flex-col gap-4'>
+        <div className='lg:w-3/5 flex flex-col gap-4 px-3'>
           <About />
           <Projects />
         </div>
