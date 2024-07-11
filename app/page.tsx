@@ -12,7 +12,7 @@ export default function Home() {
 
       <Introduction />
       <div className='flex gap-5 lg:gap-10 w-full lg:flex-row flex-col pt-3 pb-3 px-5'>
-        <div className='lg:w-2/5 lg:border-r-2 border-gray-200 flex flex-col gap-3 px-3'>
+        <div className='lg:w-2/5 lg:border-r-2 border-gray-200 flex flex-col gap-5 px-3'>
           <Contact />
           <Skills />
           <Education />
