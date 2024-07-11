@@ -5,8 +5,8 @@ const About = () => {
 
     return (
         <div className='flex flex-col gap-3'>
-            <h3 className='text-lg font-bold  lg:border-none border-b-2 border-black'>About</h3>
-            <p className='px-2'>{text}</p>
+            <h3 className='text-sky-500 text-lg font-bold  lg:border-none border-b-2 border-black'>About</h3>
+            <p className='px-4'>{text}</p>
         </div>
     )
 }

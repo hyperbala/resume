@@ -12,8 +12,8 @@ import { LinkPreview } from "@/components/ui/link-preview";
 const Contact = () => {
     return (
         <div className='flex flex-col gap-3'>
-            <h3 className='text-lg font-bold  lg:border-none border-b-2 border-black'>Contact</h3>
-            <div className='px-2'>
+            <h3 className='text-sky-500 text-lg font-bold  lg:border-none border-b-2 border-black'>Contact</h3>
+            <div className='px-4'>
                 <span>
                     <Link href="balagopaloff@gmail.com" className='flex gap-2 items-center w-fit'>
                         <IoMdMail />

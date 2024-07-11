@@ -18,8 +18,8 @@ const skillsData = [
 const Skills = () => {
     return (
         <div className='flex flex-col gap-3'>
-            <h3 className='text-lg font-bold  lg:border-none border-b-2 border-black'>Skills</h3>
-            <ul className='list-none px-2'>
+            <h3 className='text-sky-500 text-lg font-bold  lg:border-none border-b-2 border-black'>Skills</h3>
+            <ul className='list-none px-4'>
                 {skillsData.map((skill, index) => (
                     <li key={index} className='grid grid-cols-[120px_1fr]'>
                         <p className='font-semibold'>{skill.category}:</p>

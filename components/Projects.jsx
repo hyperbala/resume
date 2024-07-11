@@ -18,8 +18,8 @@ const projectsData = [
 const Projects = () => {
     return (
         <div className='flex flex-col gap-3'>
-            <h3 className='text-lg font-bold  lg:border-none border-b-2 border-black'>Projects</h3>
-            <ul className='list-none px-2'>
+            <h3 className='text-sky-500 text-lg font-bold  lg:border-none border-b-2 border-black'>Projects</h3>
+            <ul className='list-disc px-4'>
                 {projectsData.map((project, index) => (
                     <li key={index} className='mb-5 flex flex-col gap-1'>
                         <div className='flex gap-2'>

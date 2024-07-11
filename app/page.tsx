@@ -7,10 +7,12 @@ import Contact from '../components/Contact'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center py-4 lg:px-16 px-4 lg:py-5 gap-10">
+    <main className="flex min-h-screen flex-col items-center  gap-10 lg:py-10 bg-gray-100">
+      <div className='shadow-lg bg-white  m-auto lg:w-4/5 h-3/5 py-5 lg:py-0'>
+
       <Introduction />
-      <div className='flex gap-5 lg:gap-10 w-full lg:flex-row flex-col'>
-        <div className='lg:w-2/5 lg:border-r-2 border-gray-300 flex flex-col gap-3 px-3'>
+      <div className='flex gap-5 lg:gap-10 w-full lg:flex-row flex-col pt-3 pb-3 px-5'>
+        <div className='lg:w-2/5 lg:border-r-2 border-gray-200 flex flex-col gap-3 px-3'>
           <Contact />
           <Skills />
           <Education />
@@ -19,6 +21,7 @@ export default function Home() {
           <About />
           <Projects />
         </div>
+      </div>
       </div>
     </main>
   );
